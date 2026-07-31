@@ -1,0 +1,43 @@
+subscale,item,alpha_if_deleted,alpha_current
+Perceived Value,Creo que la IA es una herramienta valiosa para mejorar la educación.,0.893,0.904
+Perceived Value,La IA puede facilitar el aprendizaje personalizado para los estudiantes.,0.895,0.904
+Perceived Value,La implementación de la IA en el aula es esencial para la educación moderna.,0.894,0.904
+Perceived Value,La IA aumentará la eficiencia de los docentes en sus labores diarias.,0.89,0.904
+Perceived Value,Considero que la IA puede motivar más a los estudiantes en su aprendizaje.,0.898,0.904
+Perceived Value,La IA podría reducir la carga administrativa de los docentes.,0.901,0.904
+Perceived Value,Estoy entusiasmado/a con las posibilidades que ofrece la IA en la educación.,0.889,0.904
+Perceived Value,Veo un gran potencial en la IA para mejorar el aprendizaje de las matemáticas.,0.888,0.904
+Perceived Value,Creo que la IA puede ayudar a identificar las necesidades individuales de los estudiantes.,0.894,0.904
+Perceived Value,La IA puede contribuir a crear entornos de aprendizaje más interactivos.,0.899,0.904
+AI Literacy,Estoy familiarizado/a con los conceptos básicos de la inteligencia artificial.,0.859,0.866
+AI Literacy,Entiendo cómo funciona la inteligencia artificial en aplicaciones educativas.,0.842,0.866
+AI Literacy,Conozco ejemplos prácticos del uso de la IA en la enseñanza de las matemáticas.,0.858,0.866
+AI Literacy,Puedo explicar a otros cómo la IA puede aplicarse en el aula.,0.832,0.866
+AI Literacy,Estoy al tanto de las últimas tendencias en IA relacionadas con la educación.,0.838,0.866
+AI Literacy,Sé diferenciar entre diferentes tipos de tecnologías de IA.,0.863,0.866
+AI Literacy,Comprendo las limitaciones actuales de la IA en el ámbito educativo.,0.835,0.866
+Technical Self-Efficacy,Me siento preparado/a para integrar la IA en mis prácticas docentes.,0.804,0.835
+Technical Self-Efficacy,Tengo las habilidades necesarias para utilizar herramientas de IA en la enseñanza.,0.775,0.835
+Technical Self-Efficacy,Confío en mi capacidad para resolver problemas técnicos relacionados con la IA.,0.813,0.835
+Technical Self-Efficacy,Me siento cómodo/a experimentando con nuevas tecnologías de IA en el aula.,0.812,0.835
+Technical Self-Efficacy,Puedo identificar recursos y materiales para aprender más sobre la IA.,0.801,0.835
+Ethical Concern,Me preocupa que la IA pueda deshumanizar el proceso de enseñanza.,0.629,0.653
+Ethical Concern,Me preocupa la privacidad y seguridad de los datos al usar IA en educación.,0.546,0.653
+Ethical Concern,La IA puede aumentar las brechas educativas entre diferentes grupos sociales.,0.636,0.653
+Ethical Concern,La dependencia excesiva de la IA podría afectar negativamente las habilidades docentes.,0.621,0.653
+Ethical Concern,Me preocupa que la IA pueda generar sesgos o discriminación inadvertida.,0.561,0.653
+Ethical Governance,Es fundamental abordar las implicaciones éticas al implementar la IA en el aula.,0.87,0.881
+Ethical Governance,Se requieren políticas claras sobre el uso de la IA en el ámbito educativo.,0.838,0.881
+Ethical Governance,La IA debe ser utilizada respetando los valores y la cultura de los estudiantes.,0.843,0.881
+Ethical Governance,Es importante garantizar la transparencia en cómo la IA toma decisiones educativas.,0.839,0.881
+Institutional Support,Existe apoyo institucional para integrar la IA en nuestra formación docente.,0.803,0.837
+Institutional Support,Los cursos de mi programa incluyen contenidos relacionados con la IA.,0.799,0.837
+Institutional Support,Se fomenta activamente el uso de la IA en nuestra formación docente.,0.805,0.837
+Institutional Support,He experimentado el uso de la IA en clases impartidas por mis profesores.,0.814,0.837
+Institutional Support,Mis profesores están capacitados en el uso de la IA para la enseñanza.,0.841,0.837
+Institutional Support,He tenido oportunidades de desarrollar proyectos que involucren la IA.,0.808,0.837
+Institutional Support,He recibido formación formal sobre inteligencia artificial durante mi carrera.,0.828,0.837
+Perceived Barriers,La falta de recursos tecnológicos limita el uso de la IA en la educación.,0.539,0.613
+Perceived Barriers,Las dificultades técnicas hacen complicado el uso de la IA en el aula.,0.457,0.613
+Perceived Barriers,Hay resistencia al cambio entre los docentes respecto a la adopción de la IA.,0.572,0.613
+Perceived Barriers,La carga académica actual impide dedicar tiempo a aprender sobre IA.,0.588,0.613

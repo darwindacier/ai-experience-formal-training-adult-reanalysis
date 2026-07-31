@@ -1,0 +1,106 @@
+{
+  "e9_62_8_traceable": false,
+  "e10_minors_n": 28,
+  "e10_minor_ages": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "e11_raw_rows": 113,
+  "e11_incomplete": 0,
+  "e11_excluded_minors": 28,
+  "e11_excluded_unverified_age": 1,
+  "e11_analytic_n": 84,
+  "b2_alpha_56": 0.944,
+  "b2_alpha_55": 0.942,
+  "b2_outcome_loading_pc1": 0.711,
+  "b3_harman_first_pct": 26.9,
+  "b3_r2_original": 0.587,
+  "b3_r2_method_controlled": 0.231,
+  "b3_coefs": {
+    "Perceived Value": {
+      "beta": 0.603,
+      "p": 0.0,
+      "beta_cmv": 0.556,
+      "p_cmv": 0.0711
+    },
+    "AI Literacy": {
+      "beta": -0.257,
+      "p": 0.0189,
+      "beta_cmv": -0.268,
+      "p_cmv": 0.0356
+    },
+    "Technical Self-Efficacy": {
+      "beta": 0.285,
+      "p": 0.0174,
+      "beta_cmv": 0.26,
+      "p_cmv": 0.1765
+    },
+    "Ethical Concern": {
+      "beta": 0.188,
+      "p": 0.0749,
+      "beta_cmv": 0.183,
+      "p_cmv": 0.091
+    },
+    "Ethical Governance": {
+      "beta": -0.067,
+      "p": 0.5196,
+      "beta_cmv": -0.09,
+      "p_cmv": 0.5958
+    },
+    "Institutional Support": {
+      "beta": 0.052,
+      "p": 0.5692,
+      "beta_cmv": 0.033,
+      "p_cmv": 0.8209
+    },
+    "Perceived Barriers": {
+      "beta": -0.051,
+      "p": 0.6167,
+      "beta_cmv": -0.061,
+      "p_cmv": 0.6039
+    },
+    "Academic semester": {
+      "beta": 0.177,
+      "p": 0.0328,
+      "beta_cmv": 0.174,
+      "p_cmv": 0.0433
+    }
+  },
+  "d7_n_factors": 4,
+  "d7_interfactor_min": -0.58,
+  "d7_interfactor_max": 0.43,
+  "d7_interfactor_mean_abs": 0.38,
+  "f13_ari_seed_mean": 0.888,
+  "f13_ari_ward": 0.528,
+  "f13_ari_boot_mean": 0.569,
+  "f13_ari_boot_lo": 0.176,
+  "f13_ari_boot_hi": 0.961,
+  "f13_external_chi2": 3.1,
+  "f13_external_p": 0.2124
+}

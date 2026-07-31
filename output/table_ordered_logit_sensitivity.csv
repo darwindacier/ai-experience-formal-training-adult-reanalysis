@@ -1,0 +1,9 @@
+predictor,logit_b,se,p,ci_low,ci_high
+Perceived Value,1.792,0.395,0.0,1.018,2.565
+Technical Self-Efficacy,1.189,0.404,0.0033,0.397,1.98
+AI Literacy,-0.923,0.355,0.0094,-1.62,-0.227
+Ethical Concern,0.803,0.359,0.0252,0.1,1.506
+Academic semester,0.433,0.255,0.0901,-0.068,0.933
+Perceived Barriers,-0.37,0.323,0.2514,-1.003,0.263
+Institutional Support,0.222,0.284,0.434,-0.334,0.779
+Ethical Governance,-0.224,0.323,0.4885,-0.857,0.41

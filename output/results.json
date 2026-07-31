@@ -1,0 +1,705 @@
+{
+  "sample": {
+    "n_received": 113,
+    "n_excluded_confirmed_minors": 28,
+    "n_excluded_unverified_age": 1,
+    "n_respondents": 84,
+    "n_items_total": 64,
+    "n_likert": 56,
+    "n_dichotomous": 8,
+    "likert_missing": 0
+  },
+  "demographics": {
+    "female": 30,
+    "male": 54,
+    "female_pct": 35.7,
+    "male_pct": 64.3,
+    "age_n_valid": 84,
+    "age_n_missing": 0,
+    "age_missing_pct": 0.0,
+    "age_min": 18.0,
+    "age_max": 55.0,
+    "age_mean": 23.62,
+    "age_sd": 7.82,
+    "age_bands": {
+      "18-20": 37,
+      "21-25": 29,
+      "26+": 18
+    },
+    "levels": {
+      "Initial (1-3)": 29,
+      "Intermediate (4-6)": 14,
+      "Advanced (7-9)": 41
+    },
+    "dichotomous": {
+      "Tengo acceso regular a un computador o dispositivo inteligente.": {
+        "n_yes": 79,
+        "pct": 94.0
+      },
+      "Cuento con conexión a Internet de calidad en mi lugar de residencia.": {
+        "n_yes": 76,
+        "pct": 90.5
+      },
+      "Dispongo de los recursos tecnológicos necesarios para utilizar herramientas de IA.": {
+        "n_yes": 78,
+        "pct": 92.9
+      },
+      "Me considero competente en el uso de tecnologías digitales básicas.": {
+        "n_yes": 71,
+        "pct": 84.5
+      },
+      "Tengo experiencia en el uso de plataformas educativas en línea.": {
+        "n_yes": 57,
+        "pct": 67.9
+      },
+      "Estoy familiarizado/a con aplicaciones avanzadas de tecnología en educación.": {
+        "n_yes": 41,
+        "pct": 48.8
+      },
+      "He utilizado herramientas de inteligencia artificial antes.": {
+        "n_yes": 71,
+        "pct": 84.5
+      },
+      "He participado en cursos o talleres relacionados con IA.": {
+        "n_yes": 19,
+        "pct": 22.6
+      }
+    },
+    "usage_training_gap_pp": 61.9
+  },
+  "alpha_full_scale": 0.944,
+  "subscales": [
+    {
+      "subscale": "Perceived Value",
+      "k_items": 10,
+      "alpha": 0.904,
+      "mean": 3.86,
+      "sd": 0.79,
+      "min": 1.3,
+      "max": 5.0
+    },
+    {
+      "subscale": "AI Literacy",
+      "k_items": 7,
+      "alpha": 0.866,
+      "mean": 2.79,
+      "sd": 0.86,
+      "min": 1.0,
+      "max": 5.0
+    },
+    {
+      "subscale": "Technical Self-Efficacy",
+      "k_items": 5,
+      "alpha": 0.835,
+      "mean": 3.23,
+      "sd": 0.87,
+      "min": 1.2,
+      "max": 5.0
+    },
+    {
+      "subscale": "Ethical Concern",
+      "k_items": 5,
+      "alpha": 0.653,
+      "mean": 3.49,
+      "sd": 0.82,
+      "min": 1.6,
+      "max": 5.0
+    },
+    {
+      "subscale": "Ethical Governance",
+      "k_items": 4,
+      "alpha": 0.881,
+      "mean": 4.28,
+      "sd": 0.85,
+      "min": 1.25,
+      "max": 5.0
+    },
+    {
+      "subscale": "Institutional Support",
+      "k_items": 7,
+      "alpha": 0.837,
+      "mean": 2.64,
+      "sd": 0.8,
+      "min": 1.0,
+      "max": 5.0
+    },
+    {
+      "subscale": "Perceived Barriers",
+      "k_items": 4,
+      "alpha": 0.613,
+      "mean": 3.5,
+      "sd": 0.76,
+      "min": 1.0,
+      "max": 5.0
+    }
+  ],
+  "items_assigned": 42,
+  "items_unassigned": [
+    "Estoy dispuesto/a a invertir tiempo en aprender sobre la IA aplicada a la educación.",
+    "Mi formación académica me ha proporcionado conocimientos suficientes sobre la IA.",
+    "Estoy abierto/a a recibir capacitación adicional sobre IA educativa.",
+    "Actualmente utilizo aplicaciones o herramientas de IA en mis estudios.",
+    "He participado en proyectos o actividades que involucren la IA.",
+    "Considero que la IA es esencial para abordar los desafíos educativos actuales.",
+    "Estoy interesado/a en investigar sobre la IA en el ámbito educativo.",
+    "La capacitación adecuada facilita la integración de la IA en la enseñanza.",
+    "El acceso a Internet y dispositivos es suficiente para utilizar herramientas de IA.",
+    "Las políticas educativas actuales favorecen la incorporación de la IA.",
+    "La IA ha mejorado mi aprendizaje y comprensión de las matemáticas.",
+    "La IA se utiliza para ofrecer retroalimentación personalizada en mi aprendizaje.",
+    "Considero que debería incrementarse el uso de la IA en nuestro plan de estudios."
+  ],
+  "correlations": [
+    {
+      "variable": "Perceived Value",
+      "n": 84,
+      "r": 0.703,
+      "ci_low": 0.575,
+      "ci_high": 0.797,
+      "p": 0.0
+    },
+    {
+      "variable": "AI Literacy",
+      "n": 84,
+      "r": 0.204,
+      "ci_low": -0.011,
+      "ci_high": 0.401,
+      "p": 0.0624
+    },
+    {
+      "variable": "Technical Self-Efficacy",
+      "n": 84,
+      "r": 0.519,
+      "ci_low": 0.343,
+      "ci_high": 0.66,
+      "p": 0.0
+    },
+    {
+      "variable": "Ethical Concern",
+      "n": 84,
+      "r": 0.208,
+      "ci_low": -0.006,
+      "ci_high": 0.405,
+      "p": 0.0573
+    },
+    {
+      "variable": "Ethical Governance",
+      "n": 84,
+      "r": 0.432,
+      "ci_low": 0.239,
+      "ci_high": 0.591,
+      "p": 0.0
+    },
+    {
+      "variable": "Institutional Support",
+      "n": 84,
+      "r": 0.327,
+      "ci_low": 0.121,
+      "ci_high": 0.506,
+      "p": 0.0024
+    },
+    {
+      "variable": "Perceived Barriers",
+      "n": 84,
+      "r": 0.356,
+      "ci_low": 0.154,
+      "ci_high": 0.53,
+      "p": 0.0009
+    },
+    {
+      "variable": "Academic semester",
+      "n": 84,
+      "r": 0.33,
+      "ci_low": 0.124,
+      "ci_high": 0.508,
+      "p": 0.0022
+    },
+    {
+      "variable": "Dehumanization (single item)",
+      "n": 84,
+      "r": -0.094,
+      "ci_low": -0.302,
+      "ci_high": 0.123,
+      "p": 0.394
+    }
+  ],
+  "dehumanization_item": {
+    "mean": 3.18,
+    "sd": 1.44,
+    "pct_agree": 41.7
+  },
+  "regression": {
+    "n": 84,
+    "r2": 0.587,
+    "adj_r2": 0.543,
+    "f": 13.32,
+    "df1": 8,
+    "df2": 75,
+    "p": 8.750004307799025e-12,
+    "n_bootstrap": 5000,
+    "shapiro_w": 0.981,
+    "shapiro_p": 0.2535,
+    "breusch_pagan_lm": 13.95,
+    "breusch_pagan_df": 8,
+    "breusch_pagan_p": 0.0832,
+    "max_vif": 2.5,
+    "power_f2_015": 0.657,
+    "detectable_f2_80": 0.198,
+    "coefficients": [
+      {
+        "predictor": "Perceived Value",
+        "beta": 0.603,
+        "se": 0.113,
+        "t": 5.33,
+        "p": 0.0,
+        "ci_low": 0.378,
+        "ci_high": 0.829,
+        "boot_ci_low": 0.334,
+        "boot_ci_high": 0.864,
+        "hc3_se": 0.143,
+        "hc3_p": 0.0001,
+        "vif": 2.33
+      },
+      {
+        "predictor": "Technical Self-Efficacy",
+        "beta": 0.285,
+        "se": 0.117,
+        "t": 2.43,
+        "p": 0.0174,
+        "ci_low": 0.052,
+        "ci_high": 0.519,
+        "boot_ci_low": 0.055,
+        "boot_ci_high": 0.535,
+        "hc3_se": 0.13,
+        "hc3_p": 0.0309,
+        "vif": 2.5
+      },
+      {
+        "predictor": "AI Literacy",
+        "beta": -0.257,
+        "se": 0.107,
+        "t": -2.4,
+        "p": 0.0189,
+        "ci_low": -0.47,
+        "ci_high": -0.044,
+        "boot_ci_low": -0.479,
+        "boot_ci_high": -0.058,
+        "hc3_se": 0.109,
+        "hc3_p": 0.0212,
+        "vif": 2.08
+      },
+      {
+        "predictor": "Academic semester",
+        "beta": 0.177,
+        "se": 0.082,
+        "t": 2.17,
+        "p": 0.0328,
+        "ci_low": 0.015,
+        "ci_high": 0.34,
+        "boot_ci_low": 0.027,
+        "boot_ci_high": 0.342,
+        "hc3_se": 0.082,
+        "hc3_p": 0.0347,
+        "vif": 1.21
+      },
+      {
+        "predictor": "Ethical Concern",
+        "beta": 0.188,
+        "se": 0.104,
+        "t": 1.81,
+        "p": 0.0749,
+        "ci_low": -0.019,
+        "ci_high": 0.395,
+        "boot_ci_low": 0.011,
+        "boot_ci_high": 0.373,
+        "hc3_se": 0.093,
+        "hc3_p": 0.0477,
+        "vif": 1.96
+      },
+      {
+        "predictor": "Ethical Governance",
+        "beta": -0.067,
+        "se": 0.104,
+        "t": -0.65,
+        "p": 0.5196,
+        "ci_low": -0.275,
+        "ci_high": 0.14,
+        "boot_ci_low": -0.301,
+        "boot_ci_high": 0.189,
+        "hc3_se": 0.134,
+        "hc3_p": 0.6164,
+        "vif": 1.97
+      },
+      {
+        "predictor": "Institutional Support",
+        "beta": 0.052,
+        "se": 0.092,
+        "t": 0.57,
+        "p": 0.5692,
+        "ci_low": -0.13,
+        "ci_high": 0.235,
+        "boot_ci_low": -0.102,
+        "boot_ci_high": 0.206,
+        "hc3_se": 0.076,
+        "hc3_p": 0.4945,
+        "vif": 1.53
+      },
+      {
+        "predictor": "Perceived Barriers",
+        "beta": -0.051,
+        "se": 0.102,
+        "t": -0.5,
+        "p": 0.6167,
+        "ci_low": -0.255,
+        "ci_high": 0.152,
+        "boot_ci_low": -0.209,
+        "boot_ci_high": 0.119,
+        "hc3_se": 0.085,
+        "hc3_p": 0.5459,
+        "vif": 1.9
+      }
+    ]
+  },
+  "ordinal_sensitivity": {
+    "model": "proportional-odds ordered logit",
+    "coefficients": [
+      {
+        "predictor": "Perceived Value",
+        "logit_b": 1.792,
+        "se": 0.395,
+        "p": 0.0,
+        "ci_low": 1.018,
+        "ci_high": 2.565
+      },
+      {
+        "predictor": "Technical Self-Efficacy",
+        "logit_b": 1.189,
+        "se": 0.404,
+        "p": 0.0033,
+        "ci_low": 0.397,
+        "ci_high": 1.98
+      },
+      {
+        "predictor": "AI Literacy",
+        "logit_b": -0.923,
+        "se": 0.355,
+        "p": 0.0094,
+        "ci_low": -1.62,
+        "ci_high": -0.227
+      },
+      {
+        "predictor": "Ethical Concern",
+        "logit_b": 0.803,
+        "se": 0.359,
+        "p": 0.0252,
+        "ci_low": 0.1,
+        "ci_high": 1.506
+      },
+      {
+        "predictor": "Academic semester",
+        "logit_b": 0.433,
+        "se": 0.255,
+        "p": 0.0901,
+        "ci_low": -0.068,
+        "ci_high": 0.933
+      },
+      {
+        "predictor": "Perceived Barriers",
+        "logit_b": -0.37,
+        "se": 0.323,
+        "p": 0.2514,
+        "ci_low": -1.003,
+        "ci_high": 0.263
+      },
+      {
+        "predictor": "Institutional Support",
+        "logit_b": 0.222,
+        "se": 0.284,
+        "p": 0.434,
+        "ci_low": -0.334,
+        "ci_high": 0.779
+      },
+      {
+        "predictor": "Ethical Governance",
+        "logit_b": -0.224,
+        "se": 0.323,
+        "p": 0.4885,
+        "ci_low": -0.857,
+        "ci_high": 0.41
+      }
+    ]
+  },
+  "hierarchical": {
+    "block1_r2": 0.109,
+    "block2_r2": 0.587,
+    "delta_r2": 0.478,
+    "f_change": 12.4,
+    "p_change": 1.9341170903252064e-10
+  },
+  "gender_tests": [
+    {
+      "variable": "Perceived Value",
+      "M_female": 3.88,
+      "SD_female": 0.67,
+      "M_male": 3.85,
+      "SD_male": 0.86,
+      "t": 0.18,
+      "df": 72.8,
+      "p": 0.858,
+      "cohens_d": 0.04
+    },
+    {
+      "variable": "AI Literacy",
+      "M_female": 2.74,
+      "SD_female": 0.77,
+      "M_male": 2.82,
+      "SD_male": 0.91,
+      "t": -0.45,
+      "df": 68.7,
+      "p": 0.653,
+      "cohens_d": -0.1
+    },
+    {
+      "variable": "Technical Self-Efficacy",
+      "M_female": 3.29,
+      "SD_female": 0.84,
+      "M_male": 3.2,
+      "SD_male": 0.9,
+      "t": 0.44,
+      "df": 63.8,
+      "p": 0.659,
+      "cohens_d": 0.1
+    },
+    {
+      "variable": "Ethical Concern",
+      "M_female": 3.87,
+      "SD_female": 0.64,
+      "M_male": 3.28,
+      "SD_male": 0.83,
+      "t": 3.59,
+      "df": 73.4,
+      "p": 0.001,
+      "cohens_d": 0.76
+    },
+    {
+      "variable": "Ethical Governance",
+      "M_female": 4.44,
+      "SD_female": 0.65,
+      "M_male": 4.19,
+      "SD_male": 0.94,
+      "t": 1.47,
+      "df": 78.3,
+      "p": 0.145,
+      "cohens_d": 0.3
+    },
+    {
+      "variable": "Institutional Support",
+      "M_female": 2.5,
+      "SD_female": 0.76,
+      "M_male": 2.71,
+      "SD_male": 0.81,
+      "t": -1.15,
+      "df": 63.9,
+      "p": 0.253,
+      "cohens_d": -0.26
+    },
+    {
+      "variable": "Perceived Barriers",
+      "M_female": 3.67,
+      "SD_female": 0.66,
+      "M_male": 3.41,
+      "SD_male": 0.8,
+      "t": 1.65,
+      "df": 70.6,
+      "p": 0.104,
+      "cohens_d": 0.35
+    },
+    {
+      "variable": "Adoption intention",
+      "M_female": 3.9,
+      "SD_female": 1.06,
+      "M_male": 3.76,
+      "SD_male": 1.23,
+      "t": 0.55,
+      "df": 67.6,
+      "p": 0.584,
+      "cohens_d": 0.12
+    },
+    {
+      "variable": "Dehumanization (single item)",
+      "M_female": 3.63,
+      "SD_female": 1.3,
+      "M_male": 2.93,
+      "SD_male": 1.46,
+      "t": 2.28,
+      "df": 66.3,
+      "p": 0.026,
+      "cohens_d": 0.5
+    }
+  ],
+  "cluster_comparison": [
+    {
+      "k": 2,
+      "silhouette": 0.192,
+      "sizes": [
+        44,
+        40
+      ],
+      "anova_F": 31.47,
+      "anova_p": 2.6678792080421437e-07
+    },
+    {
+      "k": 3,
+      "silhouette": 0.195,
+      "sizes": [
+        26,
+        17,
+        41
+      ],
+      "anova_F": 16.8,
+      "anova_p": 7.877893229520387e-07
+    },
+    {
+      "k": 4,
+      "silhouette": 0.198,
+      "sizes": [
+        35,
+        25,
+        22,
+        2
+      ],
+      "anova_F": 7.56,
+      "anova_p": 0.00016247446781102518
+    },
+    {
+      "k": 5,
+      "silhouette": 0.189,
+      "sizes": [
+        16,
+        24,
+        10,
+        32,
+        2
+      ],
+      "anova_F": 9.82,
+      "anova_p": 1.6845817124658993e-06
+    }
+  ],
+  "clusters": {
+    "k": 3,
+    "silhouette": 0.195,
+    "anova_F": 16.8,
+    "anova_p": 7.877893229520373e-07,
+    "profiles": [
+      {
+        "cluster": 1,
+        "label": "Disengaged",
+        "n": 17,
+        "pct": 20.2,
+        "intention_M": 2.71,
+        "intention_SD": 1.05,
+        "Perceived Value": 3.1,
+        "AI Literacy": 2.5,
+        "Technical Self-Efficacy": 2.64,
+        "Ethical Concern": 2.71,
+        "Ethical Governance": 3.04,
+        "Institutional Support": 2.29,
+        "Perceived Barriers": 2.62
+      },
+      {
+        "cluster": 2,
+        "label": "Concerned and Underprepared",
+        "n": 41,
+        "pct": 48.8,
+        "intention_M": 3.83,
+        "intention_SD": 1.02,
+        "Perceived Value": 3.72,
+        "AI Literacy": 2.49,
+        "Technical Self-Efficacy": 2.91,
+        "Ethical Concern": 3.87,
+        "Ethical Governance": 4.55,
+        "Institutional Support": 2.38,
+        "Perceived Barriers": 3.77
+      },
+      {
+        "cluster": 3,
+        "label": "Confident Adopters",
+        "n": 26,
+        "pct": 31.0,
+        "intention_M": 4.5,
+        "intention_SD": 0.91,
+        "Perceived Value": 4.57,
+        "AI Literacy": 3.46,
+        "Technical Self-Efficacy": 4.12,
+        "Ethical Concern": 3.4,
+        "Ethical Governance": 4.64,
+        "Institutional Support": 3.26,
+        "Perceived Barriers": 3.66
+      }
+    ],
+    "tukey": [
+      {
+        "pair": "Disengaged vs Concerned and Underprepared",
+        "mean_diff": -1.12,
+        "q": 5.55,
+        "p": 0.0005
+      },
+      {
+        "pair": "Disengaged vs Confident Adopters",
+        "mean_diff": -1.79,
+        "q": 8.19,
+        "p": 0.0
+      },
+      {
+        "pair": "Concerned and Underprepared vs Confident Adopters",
+        "mean_diff": -0.67,
+        "q": 3.81,
+        "p": 0.023
+      }
+    ]
+  },
+  "supplementary_pca": {
+    "n_items": 55,
+    "ratio": "84:55",
+    "ratio_numeric": 1.53,
+    "n_required_5to1": 275,
+    "kmo": 0.673,
+    "msa_min": 0.374,
+    "msa_max": 0.883,
+    "bartlett_chi2": 3431.5,
+    "bartlett_df": 1485,
+    "bartlett_p": 2.880221590840156e-155,
+    "kaiser_components": 14,
+    "parallel_analysis_components": 4,
+    "unrotated_pct": [
+      26.9,
+      11.4,
+      6.5,
+      4.8,
+      4.3,
+      3.5,
+      3.1,
+      2.8
+    ],
+    "varimax_pct": [
+      14.0,
+      13.2,
+      12.4,
+      8.4,
+      5.2,
+      3.7,
+      3.6,
+      3.5
+    ],
+    "cumulative_pct": 64.1,
+    "items_below_040": 4
+  },
+  "anonymised_dataset": {
+    "rows": 84,
+    "cols": 69,
+    "removed_columns": [
+      "Marca temporal",
+      "Nombre de usuario"
+    ]
+  }
+}

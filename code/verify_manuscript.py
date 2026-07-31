@@ -76,6 +76,8 @@ required_manuscript = {
     "H2 not supported": r"H2\s+was\s+(?:likewise\s+)?(?:\textbf\{)?not supported",
     "adult figures": r"figures_adults/fig2_experience_profile\.png",
     "ethics approval date": r"Committee minutes dated 24 January 2025",
+    "generative AI Methods disclosure": r"\\subsection\{Use of generative artificial intelligence\}.*OpenAI Codex.*development and debugging.*analysis code.*organisation, drafting and language editing",
+    "human accountability for AI use": r"authors reviewed and approved the final text, take full responsibility",
 }
 for label, pat in required_manuscript.items():
     require("manuscript", label, pat)
@@ -107,6 +109,7 @@ require("letter", "voluntary title clarification disclosed",
 require("letter", "ethics approval date and no minute number",
         r"24 January 2025[^.]{0,180}minutes do not carry sequential reference numbers")
 require("letter", "final title", r"Exploring the Gap Between AI Experience and Formal Training")
+require("letter", "generative AI disclosure", r"Declaration of generative-AI assistance.*OpenAI Codex.*full responsibility")
 require("supplement", "final title", r"Exploring the Gap Between AI Experience and Formal Training")
 
 require("supplement", "55-item PCA", r"55 predictor items")
@@ -121,6 +124,7 @@ for label, pat in {
     "title clarification disclosed": r"voluntary title clarification",
     "usage-training gap": r"84\.5\\%[^\n]{0,160}22\.6\\%[^\n]{0,160}61\.9",
     "adult model R2": r"58\.7\\%[^\n]{0,100}R\^2\s*=\s*\.543",
+    "generative AI disclosure": r"Methods section transparently discloses the use of generative-AI assistance",
 }.items():
     require("cover", label, pat)
 for label, pat in {
